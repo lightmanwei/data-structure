@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/akunda/Downloads/DS+/DS4/graph.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+string.h
+-
+queue
+-
+vector
+-
+
+/Users/akunda/Downloads/DS+/DS4/main.cpp
+graph.h
+/Users/akunda/Downloads/DS+/DS4/graph.h
+

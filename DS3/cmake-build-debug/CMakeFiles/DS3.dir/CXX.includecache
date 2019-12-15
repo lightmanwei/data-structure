@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/akunda/Downloads/DS+/DS3/btree.h
+stdio.h
+-
+stdlib.h
+-
+stack
+-
+vector
+-
+queue
+-
+
+/Users/akunda/Downloads/DS+/DS3/main.cpp
+btree.h
+/Users/akunda/Downloads/DS+/DS3/btree.h
+
