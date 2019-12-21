@@ -11,7 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c098f91-6922-4962-84a0-5e76fe0b3217" name="Default Changelist" comment="" />
+    <list default="true" id="5c098f91-6922-4962-84a0-5e76fe0b3217" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/4基于邻接表的图实现.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS4.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DS4" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DS4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/2基于链式存储结构的线性表实现.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/数据结构实验（2018级）.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/数据结构实验（2018级）.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,14 +32,22 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UT1nxgk0UhL2Dk93qaen863370" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,70 +98,87 @@
       <workItem from="1575979629157" duration="30000" />
       <workItem from="1575988658813" duration="61000" />
       <workItem from="1576380729318" duration="2000" />
+      <workItem from="1576578486686" duration="17413000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1146" height="281" key="GridCell.Tab.0.bottom" timestamp="1575979193145">
+    <state x="138" y="141" key="CommitChangelistDialog2" timestamp="1576588244758">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="138" y="141" key="CommitChangelistDialog2/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576588244758" />
+    <state width="1384" height="281" key="GridCell.Tab.0.bottom" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.0.bottom/0.23.1536.868@0.23.1536.868" timestamp="1575979193145" />
+    <state width="1384" height="281" key="GridCell.Tab.0.bottom/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.0.bottom/0.23.1536.872@0.23.1536.872" timestamp="1575380785872" />
-    <state width="1146" height="281" key="GridCell.Tab.0.center" timestamp="1575979193145">
+    <state width="1071" height="341" key="GridCell.Tab.0.bottom/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590425857" />
+    <state width="1384" height="281" key="GridCell.Tab.0.center" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.0.center/0.23.1536.868@0.23.1536.868" timestamp="1575979193145" />
+    <state width="1384" height="281" key="GridCell.Tab.0.center/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.0.center/0.23.1536.872@0.23.1536.872" timestamp="1575380785871" />
-    <state width="1146" height="281" key="GridCell.Tab.0.left" timestamp="1575979193145">
+    <state width="1071" height="341" key="GridCell.Tab.0.center/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590425857" />
+    <state width="1384" height="281" key="GridCell.Tab.0.left" timestamp="1576750103209">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.0.left/0.23.1536.868@0.23.1536.868" timestamp="1575979193145" />
+    <state width="1384" height="281" key="GridCell.Tab.0.left/0.23.1536.868@0.23.1536.868" timestamp="1576750103209" />
     <state width="1173" height="283" key="GridCell.Tab.0.left/0.23.1536.872@0.23.1536.872" timestamp="1575380785871" />
-    <state width="1146" height="281" key="GridCell.Tab.0.right" timestamp="1575979193145">
+    <state width="1071" height="341" key="GridCell.Tab.0.left/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590425856" />
+    <state width="1384" height="281" key="GridCell.Tab.0.right" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.0.right/0.23.1536.868@0.23.1536.868" timestamp="1575979193145" />
+    <state width="1384" height="281" key="GridCell.Tab.0.right/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.0.right/0.23.1536.872@0.23.1536.872" timestamp="1575380785871" />
-    <state width="1146" height="281" key="GridCell.Tab.1.bottom" timestamp="1575979193146">
+    <state width="1071" height="341" key="GridCell.Tab.0.right/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590425857" />
+    <state width="1384" height="281" key="GridCell.Tab.1.bottom" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.1.bottom/0.23.1536.868@0.23.1536.868" timestamp="1575979193146" />
+    <state width="1384" height="281" key="GridCell.Tab.1.bottom/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.1.bottom/0.23.1536.872@0.23.1536.872" timestamp="1575380785872" />
-    <state width="1146" height="281" key="GridCell.Tab.1.center" timestamp="1575979193146">
+    <state width="1071" height="344" key="GridCell.Tab.1.bottom/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590198801" />
+    <state width="1384" height="281" key="GridCell.Tab.1.center" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.1.center/0.23.1536.868@0.23.1536.868" timestamp="1575979193146" />
+    <state width="1384" height="281" key="GridCell.Tab.1.center/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.1.center/0.23.1536.872@0.23.1536.872" timestamp="1575380785872" />
-    <state width="1146" height="281" key="GridCell.Tab.1.left" timestamp="1575979193145">
+    <state width="1071" height="344" key="GridCell.Tab.1.center/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590198801" />
+    <state width="1384" height="281" key="GridCell.Tab.1.left" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.1.left/0.23.1536.868@0.23.1536.868" timestamp="1575979193145" />
+    <state width="1384" height="281" key="GridCell.Tab.1.left/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.1.left/0.23.1536.872@0.23.1536.872" timestamp="1575380785872" />
-    <state width="1146" height="281" key="GridCell.Tab.1.right" timestamp="1575979193146">
+    <state width="1071" height="344" key="GridCell.Tab.1.left/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590198801" />
+    <state width="1384" height="281" key="GridCell.Tab.1.right" timestamp="1576750103210">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
-    <state width="1146" height="281" key="GridCell.Tab.1.right/0.23.1536.868@0.23.1536.868" timestamp="1575979193146" />
+    <state width="1384" height="281" key="GridCell.Tab.1.right/0.23.1536.868@0.23.1536.868" timestamp="1576750103210" />
     <state width="1173" height="283" key="GridCell.Tab.1.right/0.23.1536.872@0.23.1536.872" timestamp="1575380785872" />
+    <state width="1071" height="344" key="GridCell.Tab.1.right/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576590198801" />
     <state x="48" y="96" key="SettingsEditor" timestamp="1575896756894">
       <screen x="0" y="23" width="1536" height="868" />
     </state>
     <state x="48" y="96" key="SettingsEditor/0.23.1536.868@0.23.1536.868" timestamp="1575896756894" />
-    <state x="163" y="211" width="670" height="673" key="search.everywhere.popup" timestamp="1575824494417">
-      <screen x="0" y="23" width="1536" height="868" />
+    <state x="190" y="246" width="782" height="798" key="search.everywhere.popup" timestamp="1576583199087">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="163" y="211" width="670" height="673" key="search.everywhere.popup/0.23.1536.868@0.23.1536.868" timestamp="1575824494417" />
     <state x="163" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1536.872@0.23.1536.872" timestamp="1575378344959" />
+    <state x="190" y="246" width="782" height="798" key="search.everywhere.popup/1792.23.1194.733/0.23.1792.1028@0.23.1792.1028" timestamp="1576583199087" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/graph.h</url>
-          <line>442</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>370</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

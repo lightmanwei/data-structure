@@ -17,8 +17,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2fac96a-67ba-464b-ad0f-464a3c2c2f4c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b2fac96a-67ba-464b-ad0f-464a3c2c2f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DS4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DS4/doc/4基于邻接表的图实现.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DS_" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DS_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/sqlist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/cmake-build-debug/CMakeFiles/DS4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/cmake-build-debug/CMakeFiles/DS4.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/cmake-build-debug/DS4" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/cmake-build-debug/DS4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/doc/2基于链式存储结构的线性表实现.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/doc/数据结构实验（2018级）.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/doc/数据结构实验（2018级）.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DS4/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DS4/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第二次汇总/CS1802_U201814537_魏子清_2.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +44,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SPf8qAywRklEEmlkYfzPjeELPa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,24 +66,24 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="DS_" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DS_" TARGET_NAME="DS_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DS_" RUN_TARGET_NAME="DS_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,11 +102,30 @@
       <workItem from="1572767975744" duration="1160000" />
       <workItem from="1573214663426" duration="830000" />
       <workItem from="1574236951605" duration="831000" />
+      <workItem from="1576750115161" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1384" height="227" key="GridCell.Tab.0.bottom" timestamp="1576750193256">
+      <screen x="0" y="23" width="1536" height="868" />
+    </state>
+    <state width="1384" height="227" key="GridCell.Tab.0.bottom/0.23.1536.868@0.23.1536.868" timestamp="1576750193256" />
+    <state width="1384" height="227" key="GridCell.Tab.0.center" timestamp="1576750193255">
+      <screen x="0" y="23" width="1536" height="868" />
+    </state>
+    <state width="1384" height="227" key="GridCell.Tab.0.center/0.23.1536.868@0.23.1536.868" timestamp="1576750193255" />
+    <state width="1384" height="227" key="GridCell.Tab.0.left" timestamp="1576750193255">
+      <screen x="0" y="23" width="1536" height="868" />
+    </state>
+    <state width="1384" height="227" key="GridCell.Tab.0.left/0.23.1536.868@0.23.1536.868" timestamp="1576750193255" />
+    <state width="1384" height="227" key="GridCell.Tab.0.right" timestamp="1576750193255">
+      <screen x="0" y="23" width="1536" height="868" />
+    </state>
+    <state width="1384" height="227" key="GridCell.Tab.0.right/0.23.1536.868@0.23.1536.868" timestamp="1576750193255" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -93,32 +137,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>133</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>48</line>
+          <line>29</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>59</line>
+          <line>31</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>118</line>
+          <line>44</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>158</line>
+          <line>49</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sqlist.h</url>
-          <line>191</line>
+          <line>55</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
