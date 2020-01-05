@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/akunda/Downloads/DS+/DS3/btree.h
+/Users/akunda/project/DS+/DS3/btree.h
 stdio.h
 -
 stdlib.h
@@ -17,8 +17,10 @@ vector
 -
 queue
 -
+iostream
+-
 
-/Users/akunda/Downloads/DS+/DS3/main.cpp
+/Users/akunda/project/DS+/DS3/main.cpp
 btree.h
-/Users/akunda/Downloads/DS+/DS3/btree.h
+/Users/akunda/project/DS+/DS3/btree.h
 

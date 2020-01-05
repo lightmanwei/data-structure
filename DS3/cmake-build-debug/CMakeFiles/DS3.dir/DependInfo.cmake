@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/akunda/Downloads/DS+/DS3/main.cpp" "/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/CMakeFiles/DS3.dir/main.cpp.o"
+  "/Users/akunda/project/DS+/DS3/main.cpp" "/Users/akunda/project/DS+/DS3/cmake-build-debug/CMakeFiles/DS3.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

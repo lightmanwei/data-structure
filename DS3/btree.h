@@ -8,6 +8,7 @@ using namespace std;
 #include <stack>
 #include <vector>
 #include <queue>
+#include <iostream>
 /***初始化定义***/
 #define TRUE 1
 #define FALSE 0
@@ -113,12 +114,16 @@ status DeleteNode(BTree T, int index);
 //参数不带头结点
 void PreOrderTraverse(BTree T);
 
+void PreOrderTraverse2(BTree root);
+
 //参数不带头结点
 //非递归中序遍历
 void InOrderTraverse(BTree root);
 
 //参数不带头结点
 void PostOrderTraverse(BTree T);
+
+void PostOrderTraverse2(BTree T);
 
 //参数不带头结点
 void LevelOrderTraverse(BTree root);

@@ -1,249 +1,259 @@
 #include "btree.h"
 
-int main(void) {
+//int main(void) {
+//
+//    BTree LList[LLIST_SIZE] = {NULL};
+//    int list_num;
+//    CreateBiTree(LList[0], init_btree_array);
+//
+//    BTree result;
+//    int location;
+//    ElemType e;
+//    bool lr;
+//    int op = 1;
+//    while (op) {
+//        system("clear");
+//        printf("\n\n");
+//        printf("选择一个线性表(输入序号，默认1-10)\n");
+//        scanf("%d", &list_num);
+//        printf("      Menu for Linear Table On Sequence Structure \n");
+//        printf("-------------------------------------------------\n");
+//        printf("    	  1. CreateBiTree       8. "
+//               "GetSibling\n");
+//        printf("    	  2. DestroyBiTree    9. InsertNode \n");
+//        printf("    	  3. ClearBiTree      10. DeleteNode\n");
+//        printf("    	  4. BiTreeEmpty      11. PreOrderTraverse\n");
+//        printf("    	  5. BiTreeDepth     12. InOrderTraverse\n");
+//        printf("    	  6. LocateNode        13. PostOrderTraverse\n");
+//        printf("    	  7. Assign     14. LevelOrderTraverse\n");
+//        printf("    	  15. GraphBTree     16. "
+//               "FileWrite\n");
+//        printf("    	  17. FileRead       0. Exit\n");
+//        printf("-------------------------------------------------\n");
+//        printf("    请选择你的操作[0~17]:");
+//        scanf("%d", &op);
+//        switch (op) {
+//            case 1:
+//                //printf("\n----IntiList功能待实现！\n");
+//                if (CreateBiTree(LList[list_num - 1],
+//                                 init_btree_array) ==
+//                    OK)
+//                    printf("二叉树创建成功！\n");
+//                else printf("二叉树创建失败！\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 2:
+//                //printf("\n----DestroyList功能待实现！\n");
+//                if (DestroyBiTree(LList[list_num - 1]) ==
+//                    OK)
+//                    printf("二叉树销毁成功！\n");
+//                else printf("二叉树销毁失败！\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 3:
+//                //printf("\n----ClearList功能待实现！\n");
+//                if (ClearBiTree(LList[list_num - 1]) == OK)
+//                    printf("二叉树清空成功！\n");
+//                else printf("二叉树清空失败！\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 4:
+//                //printf("\n----ListEmpty功能待实现！\n");
+//                if (BiTreeEmpty(LList[list_num - 1]) ==
+//                    TRUE)
+//                    printf("二叉树为空！\n");
+//                else printf("二叉树不为空！\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 5:
+//                //printf("\n----ListLength功能待实现！\n");
+//                printf("二叉树的深度为：%d",
+//                       BiTreeDepth(LList[list_num - 1]));
+//                getchar();
+//                getchar();
+//                break;
+//            case 6:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                printf("获取元素的位置是：\n");
+//                scanf("%d", &location);
+//                result = LocateNode(
+//                        LList[list_num - 1]->lchild,
+//                        location);
+//                if (result)
+//                    printf("二叉树第%d个元素的data是%d\n",
+//                           location,
+//                           result->elem.data);
+//                else printf("没有目标元素\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 7:
+//                printf("更改的元素的id是：\n");
+//                scanf("%d", &location);
+//                printf("赋予的值为：\n");
+//                scanf("%d", &e);
+//                if (Assign(LList[list_num - 1], location, e)
+//                        )
+//                    printf
+//                            ("更改成功\n");
+//                else printf("没有%d元素\n", location);
+//                getchar();
+//                getchar();
+//                break;
+//            case 8:
+//                printf("要获取兄弟节点的节点的id是：\n");
+//                scanf("%d", &location);
+//                result = GetSibling(LList[list_num - 1],
+//                                    location);
+//                if (result)
+//                    printf("目标节点的兄弟节点的id是%d\n",
+//                           result->elem.id);
+//                else printf("目标节点无兄弟节点\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 9:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                printf("要插入的位置是\n");
+//                scanf("%d", &location);
+//                printf("要插入的是左0还是右1\n");
+//                scanf("%d", &lr);
+//                printf("节点的data为\n");
+//                scanf("%d", &e);
+//                result = (BTree) malloc(sizeof(BTreeNode));
+//                result->elem.data = e;
+//                if (InsertNode(LList[list_num - 1]->lchild,
+//                               location,
+//                               lr, result) == OK)
+//                    printf("插入成功\n");
+//                else printf("插入失败\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 10:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                printf("删除节点的id是：\n");
+//                scanf("%d", &location);
+//                if (DeleteNode(LList[list_num - 1],
+//                               location) == OK)
+//                    printf("删除成功\n");
+//                else printf("删除失败\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 11:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                PreOrderTraverse(
+//                        LList[list_num - 1]->lchild);
+//                printf("\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 12:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                InOrderTraverse(
+//                        LList[list_num - 1]->lchild);
+//                printf("\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 13:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                PostOrderTraverse(
+//                        LList[list_num - 1]->lchild);
+//                printf("\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 14:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                LevelOrderTraverse(
+//                        LList[list_num - 1]->lchild);
+//                printf("\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 15:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                Display(LList[list_num - 1]->lchild, 0);
+//                printf("\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 16:
+//                if (!LList[list_num - 1]) {
+//                    printf("二叉树为空\n");
+//                    break;
+//                }
+//                if (f_write(LList[list_num - 1]->lchild,
+//                            FILE_NAME) == OK)
+//                    printf("写入文件成功\n");
+//                else printf("写入文件失败\n");
+//                getchar();
+//                getchar();
+//                break;
+//            case 17:
+//                //f_read
+//                if (f_read(LList[list_num - 1],
+//                           FILE_NAME) == OK)
+//                    printf("读取线性表成功\n");
+//                else printf("读取线性表失败\n");
+//                getchar();
+//                getchar();
+//                break;
+//
+//            case 0:
+//                break;
+//        }
+//        //end of switch
+//        if (!LList[list_num - 1]) {
+//            printf("二叉树为空\n");
+//        } else
+//            Display(LList[list_num - 1]->lchild,
+//                    0);
+//    }//end of while
+//    printf("欢迎下次再使用本系统！\n");
+//}
 
-    BTree LList[LLIST_SIZE] = {NULL};
-    int list_num;
-    CreateBiTree(LList[0], init_btree_array);
-
-    BTree result;
-    int location;
-    ElemType e;
-    bool lr;
-    int op = 1;
-    while (op) {
-        system("clear");
-        printf("\n\n");
-        printf("选择一个线性表(输入序号，默认1-10)\n");
-        scanf("%d", &list_num);
-        printf("      Menu for Linear Table On Sequence Structure \n");
-        printf("-------------------------------------------------\n");
-        printf("    	  1. CreateBiTree       8. "
-               "GetSibling\n");
-        printf("    	  2. DestroyBiTree    9. InsertNode \n");
-        printf("    	  3. ClearBiTree      10. DeleteNode\n");
-        printf("    	  4. BiTreeEmpty      11. PreOrderTraverse\n");
-        printf("    	  5. BiTreeDepth     12. InOrderTraverse\n");
-        printf("    	  6. LocateNode        13. PostOrderTraverse\n");
-        printf("    	  7. Assign     14. LevelOrderTraverse\n");
-        printf("    	  15. GraphBTree     16. "
-               "FileWrite\n");
-        printf("    	  17. FileRead       0. Exit\n");
-        printf("-------------------------------------------------\n");
-        printf("    请选择你的操作[0~17]:");
-        scanf("%d", &op);
-        switch (op) {
-            case 1:
-                //printf("\n----IntiList功能待实现！\n");
-                if (CreateBiTree(LList[list_num - 1],
-                                 init_btree_array) ==
-                    OK)
-                    printf("二叉树创建成功！\n");
-                else printf("二叉树创建失败！\n");
-                getchar();
-                getchar();
-                break;
-            case 2:
-                //printf("\n----DestroyList功能待实现！\n");
-                if (DestroyBiTree(LList[list_num - 1]) ==
-                    OK)
-                    printf("二叉树销毁成功！\n");
-                else printf("二叉树销毁失败！\n");
-                getchar();
-                getchar();
-                break;
-            case 3:
-                //printf("\n----ClearList功能待实现！\n");
-                if (ClearBiTree(LList[list_num - 1]) == OK)
-                    printf("二叉树清空成功！\n");
-                else printf("二叉树清空失败！\n");
-                getchar();
-                getchar();
-                break;
-            case 4:
-                //printf("\n----ListEmpty功能待实现！\n");
-                if (BiTreeEmpty(LList[list_num - 1]) ==
-                    TRUE)
-                    printf("二叉树为空！\n");
-                else printf("二叉树不为空！\n");
-                getchar();
-                getchar();
-                break;
-            case 5:
-                //printf("\n----ListLength功能待实现！\n");
-                printf("二叉树的深度为：%d",
-                       BiTreeDepth(LList[list_num - 1]));
-                getchar();
-                getchar();
-                break;
-            case 6:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                printf("获取元素的位置是：\n");
-                scanf("%d", &location);
-                result = LocateNode(
-                        LList[list_num - 1]->lchild,
-                        location);
-                if (result)
-                    printf("二叉树第%d个元素的data是%d\n",
-                           location,
-                           result->elem.data);
-                else printf("没有目标元素\n");
-                getchar();
-                getchar();
-                break;
-            case 7:
-                printf("更改的元素的id是：\n");
-                scanf("%d", &location);
-                printf("赋予的值为：\n");
-                scanf("%d", &e);
-                if (Assign(LList[list_num - 1], location, e)
-                        )
-                    printf
-                            ("更改成功\n");
-                else printf("没有%d元素\n", location);
-                getchar();
-                getchar();
-                break;
-            case 8:
-                printf("要获取兄弟节点的节点的id是：\n");
-                scanf("%d", &location);
-                result = GetSibling(LList[list_num - 1],
-                                    location);
-                if (result)
-                    printf("目标节点的兄弟节点的id是%d\n",
-                           result->elem.id);
-                else printf("目标节点无兄弟节点\n");
-                getchar();
-                getchar();
-                break;
-            case 9:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                printf("要插入的位置是\n");
-                scanf("%d", &location);
-                printf("要插入的是左0还是右1\n");
-                scanf("%d", &lr);
-                printf("节点的data为\n");
-                scanf("%d", &e);
-                result = (BTree) malloc(sizeof(BTreeNode));
-                result->elem.data = e;
-                if (InsertNode(LList[list_num - 1]->lchild,
-                               location,
-                               lr, result) == OK)
-                    printf("插入成功\n");
-                else printf("插入失败\n");
-                getchar();
-                getchar();
-                break;
-            case 10:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                printf("删除节点的id是：\n");
-                scanf("%d", &location);
-                if (DeleteNode(LList[list_num - 1],
-                               location) == OK)
-                    printf("删除成功\n");
-                else printf("删除失败\n");
-                getchar();
-                getchar();
-                break;
-            case 11:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                PreOrderTraverse(
-                        LList[list_num - 1]->lchild);
-                printf("\n");
-                getchar();
-                getchar();
-                break;
-            case 12:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                InOrderTraverse(
-                        LList[list_num - 1]->lchild);
-                printf("\n");
-                getchar();
-                getchar();
-                break;
-            case 13:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                PostOrderTraverse(
-                        LList[list_num - 1]->lchild);
-                printf("\n");
-                getchar();
-                getchar();
-                break;
-            case 14:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                LevelOrderTraverse(
-                        LList[list_num - 1]->lchild);
-                printf("\n");
-                getchar();
-                getchar();
-                break;
-            case 15:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                Display(LList[list_num - 1]->lchild, 0);
-                printf("\n");
-                getchar();
-                getchar();
-                break;
-            case 16:
-                if (!LList[list_num - 1]) {
-                    printf("二叉树为空\n");
-                    break;
-                }
-                if (f_write(LList[list_num - 1]->lchild,
-                            FILE_NAME) == OK)
-                    printf("写入文件成功\n");
-                else printf("写入文件失败\n");
-                getchar();
-                getchar();
-                break;
-            case 17:
-                //f_read
-                if (f_read(LList[list_num - 1],
-                           FILE_NAME) == OK)
-                    printf("读取线性表成功\n");
-                else printf("读取线性表失败\n");
-                getchar();
-                getchar();
-                break;
-
-            case 0:
-                break;
-        }
-        //end of switch
-        if (!LList[list_num - 1]) {
-            printf("二叉树为空\n");
-        } else
-            Display(LList[list_num - 1]->lchild,
-                    0);
-    }//end of while
-    printf("欢迎下次再使用本系统！\n");
+int main() {
+    BTree T = NULL;
+    CreateBiTree(T, init_btree_array);
+    PreOrderTraverse2(T->lchild);
+    cout<<"\n";
+    InOrderTraverse(T->lchild);
+    cout<<"\n";
+    PostOrderTraverse2(T->lchild);
+    cout<<"\n";
+    Display(T->lchild, 0);
 }
-
-
 /***辅助函数***/
 
 //根据带空树的前序遍历数组 创建二叉树，ID为前序遍历的顺序
@@ -562,6 +572,20 @@ void PreOrderTraverse(BTree T) {
     return;
 }
 
+void PreOrderTraverse2(BTree root) {
+    stack <BTree> s;
+    BTree p = root;
+    while (p || !s.empty()) {
+        while (p) {
+            printf("%d\t", p->elem.data);
+            s.push(p);
+            p = p->lchild;
+        }
+        p = s.top()->rchild;
+        s.pop();
+    }
+}
+
 //参数不带头结点
 //非递归中序遍历
 void InOrderTraverse(BTree root) {
@@ -574,15 +598,14 @@ void InOrderTraverse(BTree root) {
             p = p->lchild;
         }
         //检查完了左子树，下面访问节点（中序）
-        if (!s.empty()) {
-            p = s.top();
-            printf("%d\t", p->elem.data);
-            s.pop();
-            //检查右子树
-            p = p->rchild;
-        }
+        p = s.top();
+        printf("%d\t", p->elem.data);
+        s.pop();
+        //检查右子树
+        p = p->rchild;
     }
 }
+
 
 //参数不带头结点
 void PostOrderTraverse(BTree T) {
@@ -592,6 +615,28 @@ void PostOrderTraverse(BTree T) {
     PostOrderTraverse(T->rchild);
     printf("%d\t", T->elem.data);
     return;
+}
+
+void PostOrderTraverse2(BTree root) {
+    stack <BTree> s;
+    BTree p = root,r=NULL;
+    while (p || !s.empty()) {
+        if (p) {//走到最左边
+            s.push(p);
+            p = p->lchild;
+        }
+        else {
+            p = s.top();
+            if (p->rchild && p->rchild != r)//右子树存在，未被访问
+                p = p->rchild;
+            else {
+                s.pop();
+                printf("%d\t", p->elem.data);
+                r = p;//记录最近访问过的节点
+                p = NULL;//节点访问完后，重置p指针
+            }
+        }//else
+    }
 }
 
 //参数不带头结点

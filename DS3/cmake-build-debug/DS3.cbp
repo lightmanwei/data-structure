@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug"/>
+				<Option working_dir="/Users/akunda/project/DS+/DS3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug"/>
+				<Option working_dir="/Users/akunda/project/DS+/DS3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug"/>
+				<Option working_dir="/Users/akunda/project/DS+/DS3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DS3">
-				<Option output="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/DS3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug"/>
+				<Option output="/Users/akunda/project/DS+/DS3/cmake-build-debug/DS3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akunda/project/DS+/DS3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 DS3"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 DS3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DS3/fast">
-				<Option output="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/DS3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/akunda/Downloads/DS+/DS3/cmake-build-debug"/>
+				<Option output="/Users/akunda/project/DS+/DS3/cmake-build-debug/DS3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/akunda/project/DS+/DS3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,20 +73,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 DS3/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/Downloads/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 DS3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/akunda/project/DS+/DS3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/akunda/Downloads/DS+/DS3/btree.h">
+		<Unit filename="/Users/akunda/project/DS+/DS3/btree.h">
 			<Option target="DS3"/>
 		</Unit>
-		<Unit filename="/Users/akunda/Downloads/DS+/DS3/main.cpp">
+		<Unit filename="/Users/akunda/project/DS+/DS3/main.cpp">
 			<Option target="DS3"/>
 		</Unit>
-		<Unit filename="/Users/akunda/Downloads/DS+/DS3/CMakeLists.txt">
+		<Unit filename="/Users/akunda/project/DS+/DS3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
